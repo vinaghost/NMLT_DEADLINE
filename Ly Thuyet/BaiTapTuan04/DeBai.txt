@@ -1,0 +1,11 @@
+﻿Sinh viên không được sử dụng thư viện hỗ trợ toán học, ví dụ pow, exp. v.v.   
+Câu 1. Người dùng nhập vào một số nguyên dương N. Chương trình in các số nguyên dương từ  1 đến N.
+Câu 2. Chương trình yêu cầu người dùng nhập vào một số  nguyên dương, nếu người nhập sai thì thực hiện lại cho đến khi nào người dùng nhập đúng thì thôi.
+Câu 3. Người dùng nhập vào hai số nguyên M và N. Chương trình tính tích của M và N nhưng không được dùng toán tử *.
+Câu 4. Người dùng nhập vào  10 số  nguyên. Chương trình  cộng dồn 10 giá trị  này chỉ  bằng lệnh for. Nếu trong quá trình nhập mà người dùng nhập số  0 thì không cho nhập nữa và in ra màn hình giá trị cộng dồn tới thời điểm đó.
+Câu 5. Người dùng nhập vào một số nguyên dương N. Chương trình xác định N có mấy chữ số và tính tổng của các chữ số đó.
+Câu 6. Người dùng nhập vào một số nguyên dương N. Chương trình tính giai thừa N!.
+Câu 7. Người dùng nhập vào một số nguyên dương N (N  >  3). Chương trình in chuỗi Fibonacci có N số hạng. Biết rằng số hạng thứ nhất và thứ hai đều bằng 1.
+Câu 8. Người  dùng nhập vào  hai  số  nguyên  dương  M và  N.  Chương trình  xác định bội  số chung nhỏ nhất của chúng.
+Câu 9. Chương trình sử dụng lệnh lặp để in bảng cửu chương từ  1 đến 9.  
+Câu 10. Người dùng nhập vào một số nguyên dương N. Chương trình in ra màn hình tam giác Pascal có chiều cao N.
