@@ -1,0 +1,16 @@
+Yêu cầu khi viết code về hệ thống:
+-	Tổ chức thành 3 file.
+-	Đặt tên biến/hàm bằng tiếng việt theo nguyên tắc Lac Đà.
+-	Mỗi nhiệm vụ là 1 hàm, mọi thứ đều là hàm!
+Bài tập.
+Viết chương trình với yêu cầu:
+
+In menu với 6 chức năng:
+-	Nhập giá trị số nguyên cho mảng 1 chiều.
+-	Xuất các giá trị của mảng.
+-	Tìm số nguyên tố có trong mảng
+-	Tìm Min và Max của mảng
+- 	Tìm kiếm 1 số cho trước ở trong mảng
+-	Thoát
+Xây dựng các hàm tương ứng cho các yêu cầu trên
+
