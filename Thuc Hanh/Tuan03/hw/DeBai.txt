@@ -1,0 +1,21 @@
+﻿Yêu cầu khi viết code về hệ thống:
+-	Tổ chức thành 3 file.
+-	Đặt tên biến/hàm bằng tiếng việt theo nguyên tắc Lac Đà.
+-	Mỗi phép toán là 1 hàm, mọi thứ đều là hàm!
+
+Bài 1. Viết chương trình mô phỏng máy tính bỏ túi Casio với yêu cầu sau:
+-	Có menu để user chọn phép tính cần thực hiện.
+-	Chương trình chỉ thoát khi user chọn “Thoát”
+-	4  phép tính cơ bản.
+-	Các phép tính lượng giác.
+-	Tính mũ cho 1 số a.
+-	Tính Log 
+-	Tính căn.
+-	Tính trị tuyệt đối.
+-	Giải phương trình bậc hai.
+-	Giải hệ phương trình.
+-	4 phép tính cho phân số (có rút gọn kết quả thu được sau mỗi phép tính trước khi in ra màn hình)
+            Chú ý tìm hiểu thư viên math của C/C++
+Bài 2. Viết chương trình đọc số nhập từ ban phím theo dạng hàm.
+Bài 3. Tính năm âm lịch khi nhập năm hiện tại vào từ bàn phím ví dụ nhập vào 2018 thì in ra màn hình.
+Bài 4. Viết hàm tính căn bậc 2 theo phép lặp NewTon không dùng thư viện math.

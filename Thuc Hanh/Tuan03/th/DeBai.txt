@@ -1,0 +1,50 @@
+Kiến thức:
+-	Ôn tập cấu trúc rẽ nhánh và các kiên thức đã học.
+-	Thực hành vòng lặp for(){}.
+-	Thực hành tách code những bài ở tuần 2 thành hàm (function).
+Đề bài:
+Bài 1.
+Chuyển tất cả code bài thực hành tuần 2 thành dạng hàm được tổ chức thành 3 file: main.cpp; source.cpp và funtion.h
+Các chức năng cần chuyển thành hàm:
+1.	In menu chính.
+2.	In menu con.
+3.	Đăng nhập.
+4.	Cập nhật điểm
+Hàm viết thêm:
+-	Hàm gọi thực thi chức năng.
+Bài 2.
+Viết chương trình in tam giác * ra màn hình với yêu cầu:
+1.	Kích thước của tam giác được nhập từ bãn phím (kiêu int)
+2.	Có menu gọi in ra màn hình lại tam giá mà người dùng thích.
+3.	Chương trình chỉ thoát khi người dùng chọn thoát.
+4.	Yêu cầu có hàm xuất ra 6 loại tam giác như phía dưới:
+
+*
+* *
+* * *
+* * * *
+* * * * *
+===========
+        *
+      * *
+    * * *
+  * * * *
+* * * * *
+===========
+* * * * *
+* * * * 
+* * * 
+* * 
+* 
+===========
+* * * * *
+  * * * * 
+    * * * 
+      * * 
+        *
+===========
+  *
+*   *
+===========
+*   *
+  *  
