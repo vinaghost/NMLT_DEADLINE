@@ -1,0 +1,126 @@
+﻿Vui lòng đọc kỹ các yêu cầu dưới đây trước khi làm bài  
+•    Bài làm phải biên dịch và chạy thành công trên Visual Studio phiên bản 2010 trở lên.  
+•    Không nộp tập tin *.exe để tránh lây nhiễm virus.  
+•    Tạo một solution duy nhất cho Bài tập tuần, đặt tên là <MSSV>_BaiTapTuan<STT>, thay  
+     MSSV bằng mã số sinh viên của bạn và thay <STT> bằng chỉ mục tuần tương ứng.  
+•    Các Câu hỏi trong Bài tập tuần được tổ chức thành các hàm trong một project duy nhất.  
+•    Hạn chế sử dụng các thư viện ngoài hoặc cấu hình solution phức tạp không cần thiết.  
+•    Không cần kiểm tra tính hợp lệ  của dữ liệu đầu vào trừ  khi đề bài yêu  cầu. Ví dụ, đề bài  
+     yêu cầu nhập số x nguyên dương thì mặc định người dùng phải nhập đúng x > 0, trong  
+     chương trình không cần kiểm tra điều này.  
+•    Tự  mình thực hiện bài tập, không sao chép bài làm của sinh viên khác hoặc mã  
+     nguồn có sẵn trên Internet. Mọi vi phạm có thể dẫn đến 0 điểm toàn môn học.  
+
+Cho cấu trúc dữ liệu lưu trữ phân số như sau  
+
+                                  struct PHANSO  
+                                  {  
+                                    int iTuSo;                      // Tử số  
+                                    int iMauSo;                     // Mẫu số  
+                                  }  
+
+Viết hàm NhapPhanSo(PHANSO &P) trong đó người dùng nhập hai số nguyên a  và b, lần  
+
+lượt là tử  số và  mẫu số  của phân số  P  (b   0), chú ý rằng phân số  khi lưu trữ  phải có định  
+
+dạng hợp lệ  (dấu – không xuất hiện đồng thời ở cả tử và mẫu số) và chưa cần tối giản.  
+
+Viết hàm  XuatPhanSo(const PHANSO P)để in ra màn hình phân số P.  
+
+Hàm nhập và xuất phân số sẽ được sử dụng cho các câu bên dưới.  
+
+Câu 1. Người dùng nhập vào một phân số P. Viết hàm rút gọn phân số. Chương trình gọi hàm  
+
+ rút gọn phân số P rồi in ra màn hình kết quả đã rút gọn.Ví dụ,
+
+                                                                            
+
+Câu 2. Người dùng nhập hai phân số  P và Q. Viết hàm so sánh hai phân số, trả về giá trị  > 0  
+
+     nếu phân số  1 lớn hơn phân số 2, 0 nếu hai phân số bằng nhau, và ngược lại trả về giá trị  
+
+     < 0. Chương trình gọi hàm so sánh P và Q và in ra màn hình câu thông báo phù hợp. Ví dụ,  
+
+                                                                                   Lưu ý: xét cả  trường hợp so  
+
+                                                                                   sánh giữa phân số rút gọn và  
+
+                                                                                   phân số chưa rút gọn.  
+                                                                                  
+
+Câu 3. Người dùng nhập hai phân số P và Q. Viết hàm tính tổng, hiệu, tích và thương của hai  
+
+     phân số sau đó rút gọn kết quả. Chương trình gọi các hàm tính toán phân số cho P và Q,  
+
+     và in ra màn hình các phân số kết quả. Hàm rút gọn phân số đã định nghĩa ở Câu 1. Ví dụ,  
+
+                                                                                 
+
+                                                                                                                        2  
+  
+Trợ giảng: Nguyễn Ngọc Thảo (nnthao@fit.hcmus.edu.vn)  
+
+----------------------- Page 3-----------------------
+
+Cho cấu trúc dữ liệu lưu trữ dãy phân số như sau  
+
+           struct DAYPHANSO  
+           {    
+              PHANSO arrPhanSo[MAX_PSO];  // Mảng lưu dãy phân số  
+              int N;                                  // Số lượng phân số trong mảng  
+           }  
+
+Viết hàm NhapDayPhanSo(DAYPHANSO &aP)  lưu trữ  dãy gồm N các phân số, trong đó  
+mỗi phân số được người dùng nhập bằng hàm NhapPhanSo đã định nghĩa ở đầu bài.   
+Viết hàm  XuatDayPhanSo(const DAYPHANSO aP)để in ra màn hình dãy phân số, trong  
+đó mỗi phân số được in bằng hàm XuatPhanSo đã định nghĩa ở đầu bài.  
+Hàm nhập và xuất dãy phân số sẽ được sử dụng cho các câu bên dưới.  
+
+Câu 4. Người dùng nhập vào một dãy phân số  aP và một phân số  Q. Viết hàm kiểm tra một  
+phân số  có trong dãy phân số  cho trước hay không, trả  về  1 nếu có và 0 nếu không có.  
+Chương trình gọi hàm để kiểm tra sự tồn tại của Q trong aP và in ra màn hình câu thông  
+báo phù hợp.
+
+Câu 5. Người dùng nhập vào một dãy phân số  aP. Viết hàm  tính tổng các phân số  có trong  
+dãy phân số. Chương trình gọi hàm tính tổng dãy phân số  aP và in kết quả  ra màn hình.
+
+Câu 6. Người dùng nhập vào một dãy phân số  aP. Viết hàm  sắp xếp các phân số  trong dãy 
+phân số theo thứ tự tăng dần về giá trị phân số. Chương trình gọi hàm sắp xếp dãy số aP  
+rồi in kết quả ra màn hình.
+
+Cho cấu trúc dữ liệu lưu trữ tọa độ của điểm trong không gian hai chiều như sau  
+
+           struct Diem2D  
+           {    
+             double dX;  // Tọa độ trên trục X  
+             double dY;  // Tọa độ trên trục Y  
+           }  
+
+Viết hàm NhapDiem2D (Diem2D &P) trong đó người dùng nhập hai số nguyên x  và y, lần  
+lượt là tọa độ trục X và trục Y của điểm P.  
+Viết hàm  XuatDiem2D (const Diem2D P)để in ra màn hình điểm P.  
+Hàm nhập và xuất điểm tọa độ hai chiều sẽ được sử dụng cho các câu bên dưới.  
+
+Câu 7. Người dùng nhập vào  hai  điểm  tọa độ  hai chiều, A và B. Viết hàm tính  khoảng cách  
+Euclide giữa hai điểm trong không gian tọa độ  hai chiều. Chương trình gọi hàm khoảng  
+cách giữa A và B và in kết quả ra màn hình.
+
+Câu 8. Người dùng nhập vào ba điểm tọa độ hai chiều, A, B và C. Viết hàm tính chu vi và diện  
+tích của tam giác được hình thành bởi ba điểm hai chiều. Chương trình gọi hàm tính chu  
+vi và diện tích của tam giác ABC và in kết quả ra màn hình.                                                                                    
+Giáo viên môn Nhập môn lập trình của các lớp CQ2018 cần xây dựng cấu trúc dữ liệu để lưu  
+trữ thông tin của sinh viên trong lớp theo đặc tả như sau  
+     ▪   Danh sách sinh viên không quá 500 sinh viên.  
+     ▪   Với mỗi sinh viên, cần lưu trữ các thông tin gồm  
+         -    Họ và tên của sinh viên (không dấu)  
+         -    Giới tính: Nam hoặc Nữ  
+         -    Lớp: 1, 2, 3, 4 hoặc 5  
+         -   Điểm tổng kết môn học  
+
+Câu 9. Hãy thiết kế cấu trúc dữ liệu phù hợp với đặc tả ở trên. Viết hàm nhập và xuất thông  
+tin của một sinh viên, cũng như hàm nhập và xuất cho danh sách sinh viên.   
+
+Câu 10.  Người dùng nhập danh sách sinh viên gồm N sinh viên, rồi nhập tiếp một số nguyên  
+ dương m. Viết hàm xác định top m sinh viên có điểm tổng kết môn học cao nhất. Chương  
+trình gọi hàm tìm top m sinh viên và in thông tin đầy đủ của mỗi sinh viên ra màn hình.   
+
